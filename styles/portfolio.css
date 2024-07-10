@@ -132,13 +132,23 @@ main section {
   box-sizing: border-box;
   border: 1px solid rgb(0, 0, 0);
   background: rgb(255, 255, 255);
+  padding: 24px;
 }
 .about-items {
   display: flex;
   justify-content: space-around;
 }
+
+.item-title {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
 .item-description {
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* skills section styles */
