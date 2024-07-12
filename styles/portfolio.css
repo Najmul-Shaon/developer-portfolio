@@ -305,4 +305,8 @@ footer textarea {
     align-items: center;
     justify-content: center;
   }
+  .resume-column {
+    width: 100%;
+    padding: 0;
+  }
 }
