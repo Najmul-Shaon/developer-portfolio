@@ -175,7 +175,8 @@ main section {
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill:hover {
+.skill:hover,
+.resume-column:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 .skill a {
@@ -190,6 +191,20 @@ main section {
 }
 .resume-column {
   width: 50%;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 15px;
+  padding: 18px;
+  background-color: #fff8f3;
+}
+
+.resume-column-title {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
 }
 .experience-sub-title {
   font-size: 20px;
