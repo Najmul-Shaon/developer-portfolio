@@ -77,6 +77,7 @@ nav {
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+  cursor: pointer;
 }
 
 nav ul {
@@ -299,7 +300,7 @@ footer textarea {
   .banner-profile-pic {
     width: 100%;
   }
-  .social-icons-container{
+  .social-icons-container {
     display: flex;
     align-items: center;
     justify-content: center;
