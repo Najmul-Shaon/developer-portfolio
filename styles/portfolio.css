@@ -259,3 +259,14 @@ footer textarea {
 .fa-github {
   color: rgb(22, 22, 20);
 }
+
+/* responsive media  */
+/* for small device  */
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  .resume-container {
+    flex-direction: column;
+  }
+}
