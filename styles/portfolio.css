@@ -279,7 +279,8 @@ footer textarea {
     margin: 20px;
   }
   .about,
-  footer {
+  footer,
+  .resume-column {
     padding: 20px;
   }
   .header {
@@ -306,7 +307,6 @@ footer textarea {
     justify-content: center;
   }
   .resume-column {
-    width: 100%;
-    padding: 0;
+    width: 90%;
   }
 }
