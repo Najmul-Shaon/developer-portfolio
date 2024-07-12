@@ -168,6 +168,9 @@ main section {
   display: flex;
   gap: 24px;
 }
+.resume-column {
+  width: 50%;
+}
 .experience-sub-title {
   font-size: 20px;
   font-weight: 600;
@@ -206,4 +209,18 @@ footer textarea {
   padding: 10px 20px;
   margin-bottom: 24px;
   border: none;
+}
+.fa-brands {
+  font-size: 36px;
+  margin-right: 24px;
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-linkedin {
+  color: rgb(36, 167, 190);
+}
+.fa-github {
+  color: rgb(22, 22, 20);
 }
