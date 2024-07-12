@@ -260,21 +260,33 @@ footer textarea {
   color: rgb(22, 22, 20);
 }
 
-.hide {
-  display: none;
-}
-
 /* responsive media  */
 /* for small device  */
 @media screen and (max-width: 576px) {
   .skills-container,
-  .resume-container {
+  .resume-container,
+  .about-items,
+  .banner,
+  nav,
+  nav > ul {
     flex-direction: column;
+  }
+  nav > ul {
+    gap: 30px;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .about,
+  footer {
+    padding: 20px;
+  }
+  .header {
+    background-image: none;
   }
 
   footer {
     flex-direction: column-reverse;
-    padding: 20px;
   }
   .footer-column {
     width: 100%;
@@ -283,5 +295,13 @@ footer textarea {
   footer input[type="email"],
   footer textarea {
     width: calc(100% - 40px);
+  }
+  .banner-profile-pic {
+    width: 100%;
+  }
+  .social-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
