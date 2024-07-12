@@ -260,13 +260,28 @@ footer textarea {
   color: rgb(22, 22, 20);
 }
 
+.hide {
+  display: none;
+}
+
 /* responsive media  */
 /* for small device  */
 @media screen and (max-width: 576px) {
-  .skills-container {
-    flex-direction: column;
-  }
+  .skills-container,
   .resume-container {
     flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 40px);
   }
 }
